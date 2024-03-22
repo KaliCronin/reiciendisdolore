@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../",
+    "declaration": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "target": "ES6",
+    "paths": {
+      "@stylin/msa-loader/*": [
+        "msa-loader/dist/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

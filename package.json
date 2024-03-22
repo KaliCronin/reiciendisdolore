@@ -1,0 +1,39 @@
+{
+  "name": "reiciendisdolore",
+  "version": "1.0.0",
+  "keywords": [
+    "sit",
+    "css",
+    "css-to-react",
+    "msa",
+    "styling",
+    "quia"
+  ],
+  "license": "MIT",
+  "author": "MagnoliaWyman",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build --parallel --stream",
+    "clean": "lerna run clean",
+    "release": "lerna publish",
+    "test": "lerna run test",
+    "watch": "lerna run watch --parallel --stream"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "@typescript-eslint/parser": "^4.15.0",
+    "lerna": "^3.22.1",
+    "typescript": "^4.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KaliCronin/reiciendisdolore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KaliCronin/reiciendisdolore.git/issues"
+  },
+  "homepage": "https://github.com/KaliCronin/reiciendisdolore.git"
+}
